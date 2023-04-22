@@ -9,8 +9,12 @@ In the future (maybe) i will do some GUI design to make this script more user fr
 ## How it works
 
 1. Give it a folder full of photos (in my case i usually have somewhere from 100 to a 1000 photos per session). It can have multiple file extensions (.cr2 and .jpg in my case)
-2. Look through your photos and select the ones that you can't use (blurry, closed eyes, etc) and write their name in a .txt file. Note: if you want to delete a bunch of consecutive pictures (e.g pictures 10,11,12,...,25) just write the first and last one separated by a dash (e.g. 10-25) and the program does it for you
-3. Input the .txt file into the program and let it do its thing
+2. Create 3 subfolders: raw, edited and selected. 
+3. Inside "raw", you need 2 things:
+   1. Create a new folder for each 
+   2. Create a .txt file called "blacklist.txt" inside the raw subfolder
+4. Look through your photos and select the ones that you can't use (blurry, closed eyes, etc) and write their number in a .txt file (e.g. if picture "_MG_4043" is wrong, then write 4043). Note: if you want to delete a bunch of consecutive pictures (e.g pictures 10,11,12,...,25) just write the first and last one separated by a dash (e.g. 10-25) and the program does it for you
+5. Input the .txt file into the program and let it do its thing
 
 ## Future additions
 - Possibility to create the folder containing all photos instead of inputting it
